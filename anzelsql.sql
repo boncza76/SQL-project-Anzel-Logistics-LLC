@@ -1,5 +1,11 @@
 
-
+--q1 
+select count(*) total_count, product_category, product_name
+from commodity c inner join trucks t
+on c.order_id=t.order_id
+where dest_state = 'TX'
+group by product_category, product_name
+order by total_count desc
 
 --q2
 SELECT COUNT(*) as num_product, product_id, product_name
