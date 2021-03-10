@@ -66,5 +66,4 @@ from trucks
 group by case when net_weight > 38000 then 'heavy'
 else 'onpoint' end, trucks
 )
-
 order by weight_count desc
