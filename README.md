@@ -1,2 +1,2 @@
 # SQL-project-Anzel-Logistics-LLC
-With real data from our family business, I analyzed Anzel Logistics performance for 2020. 
+Generating KPIs to able to implement strategies into operations management.
